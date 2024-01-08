@@ -1,0 +1,25 @@
+.trafficLight {
+    background-color: black;
+    width: 50px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 5px;
+    border-radius: 10px;
+  }
+.trafficLight div {
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    background-color: gray;
+  }
+div.red{
+    background-color: red;
+}
+div.yellow{
+    background-color: yellow;
+}
+div.green{
+    background-color: green;
+}
